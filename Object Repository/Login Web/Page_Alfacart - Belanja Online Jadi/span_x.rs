@@ -6,15 +6,19 @@
    <elementGuidId>542779ea-d861-465f-8cf4-380164eac468</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'x' or . = 'x')]</value>
+         <key>CSS</key>
+         <value>#modalPromo > div > div > div.modal-header > button</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='modalPromo']/div/div/div/button/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'x' or . = 'x')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
