@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Web Virtual Account Prod,Chrome 72.0.3626.81,,2019-01-31 10:06:33,2019-01-31 10:07:58,1m - 24.976s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Login PROD,Chrome 72.0.3626.81,,2019-01-31 10:06:33,2019-01-31 10:06:56,22.786s,PASSED
+openBrowser,Chrome 72.0.3626.81,,2019-01-31 10:06:34,2019-01-31 10:06:40,6.713s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 72.0.3626.81,,2019-01-31 10:06:40,2019-01-31 10:06:40,0.006s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 72.0.3626.81,,2019-01-31 10:06:40,2019-01-31 10:06:40,0.002s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 72.0.3626.81,,2019-01-31 10:06:40,2019-01-31 10:06:41,0.513s,PASSED
+navigateToUrl,Chrome 72.0.3626.81,,2019-01-31 10:06:41,2019-01-31 10:06:47,6.538s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:06:47,2019-01-31 10:06:47,0.002s,NOT_RUN
+"Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login Web/Page_Alfacart - Belanja Online Jadi/span_x), 0)",Chrome 72.0.3626.81,,2019-01-31 10:06:47,2019-01-31 10:06:48,0.261s,PASSED
+Statement - If (result),Chrome 72.0.3626.81,,2019-01-31 10:06:48,2019-01-31 10:06:51,3.423s,PASSED
+delay,Chrome 72.0.3626.81,,2019-01-31 10:06:51,2019-01-31 10:06:53,2.007s,PASSED
+setText,Chrome 72.0.3626.81,,2019-01-31 10:06:53,2019-01-31 10:06:54,0.422s,PASSED
+setEncryptedText,Chrome 72.0.3626.81,,2019-01-31 10:06:54,2019-01-31 10:06:54,0.302s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:06:54,2019-01-31 10:06:56,2.176s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Search Web,Chrome 72.0.3626.81,,2019-01-31 10:06:56,2019-01-31 10:07:05,9.119s,PASSED
+setText,Chrome 72.0.3626.81,,2019-01-31 10:06:56,2019-01-31 10:06:57,0.463s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:06:57,2019-01-31 10:06:59,2.011s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:06:59,2019-01-31 10:06:59,0.228s,PASSED
+delay,Chrome 72.0.3626.81,,2019-01-31 10:06:59,2019-01-31 10:06:59,0.002s,NOT_RUN
+click,Chrome 72.0.3626.81,,2019-01-31 10:06:59,2019-01-31 10:06:59,0.001s,NOT_RUN
+delay,Chrome 72.0.3626.81,,2019-01-31 10:06:59,2019-01-31 10:07:02,3.003s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:07:02,2019-01-31 10:07:02,0.146s,PASSED
+delay,Chrome 72.0.3626.81,,2019-01-31 10:07:02,2019-01-31 10:07:02,0.002s,NOT_RUN
+click,Chrome 72.0.3626.81,,2019-01-31 10:07:02,2019-01-31 10:07:02,0.003s,NOT_RUN
+delay,Chrome 72.0.3626.81,,2019-01-31 10:07:02,2019-01-31 10:07:05,3.001s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/VA,Chrome 72.0.3626.81,,2019-01-31 10:07:05,2019-01-31 10:07:57,51.473s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:07:05,2019-01-31 10:07:44,38.390s,PASSED
+delay,Chrome 72.0.3626.81,,2019-01-31 10:07:44,2019-01-31 10:07:47,3.003s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:07:47,2019-01-31 10:07:47,0.159s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:07:47,2019-01-31 10:07:51,3.621s,PASSED
+delay,Chrome 72.0.3626.81,,2019-01-31 10:07:51,2019-01-31 10:07:54,3.003s,PASSED
+click,Chrome 72.0.3626.81,,2019-01-31 10:07:54,2019-01-31 10:07:57,3.044s,PASSED

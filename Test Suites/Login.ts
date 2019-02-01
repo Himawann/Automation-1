@@ -4,7 +4,8 @@
    <name>Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2019-01-29T17:37:57</lastRun>
+   <mailRecipient>saiful.fahmi@alfadigital.id;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

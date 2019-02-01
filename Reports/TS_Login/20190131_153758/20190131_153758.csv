@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Login,Chrome 72.0.3626.81,,2019-01-31 15:38:04,2019-01-31 15:39:12,1m - 7.145s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,Chrome 72.0.3626.81,,2019-01-31 15:38:05,2019-01-31 15:38:24,19.040s,FAILED
+Start setup action : Setup,Chrome 72.0.3626.81,,2019-01-31 15:38:05,2019-01-31 15:38:21,15.841s,PASSED
+click,Chrome 72.0.3626.81,Click Sign in Masuk/Daftar,2019-01-31 15:38:21,2019-01-31 15:38:22,0.919s,PASSED
+callTestCase,Chrome 72.0.3626.81,Call Login function,2019-01-31 15:38:22,2019-01-31 15:38:23,1.083s,PASSED
+Statement - switch (var_statusExpectedResult.toString()),Chrome 72.0.3626.81,Get Status expected test case result,2019-01-31 15:38:23,2019-01-31 15:38:23,0.181s,FAILED
+Start tear down : Teardown,Chrome 72.0.3626.81,,2019-01-31 15:38:23,2019-01-31 15:38:24,0.943s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,Chrome 72.0.3626.81,,2019-01-31 15:38:24,2019-01-31 15:39:12,47.626s,FAILED
+Start setup action : Setup,Chrome 72.0.3626.81,,2019-01-31 15:38:24,2019-01-31 15:38:34,9.645s,PASSED
+click,Chrome 72.0.3626.81,Click Sign in Masuk/Daftar,2019-01-31 15:38:34,2019-01-31 15:38:35,0.957s,PASSED
+callTestCase,Chrome 72.0.3626.81,Call Login function,2019-01-31 15:38:35,2019-01-31 15:38:39,4.222s,PASSED
+Statement - switch (var_statusExpectedResult.toString()),Chrome 72.0.3626.81,Get Status expected test case result,2019-01-31 15:38:39,2019-01-31 15:39:11,31.767s,FAILED
+Start tear down : Teardown,Chrome 72.0.3626.81,,2019-01-31 15:39:11,2019-01-31 15:39:12,1.008s,PASSED

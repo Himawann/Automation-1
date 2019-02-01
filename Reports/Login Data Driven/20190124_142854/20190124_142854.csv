@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Data Driven,Chrome 71.0.3578.98,,2019-01-24 14:29:00,2019-01-24 14:29:47,46.525s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 14:29:01,2019-01-24 14:29:20,18.748s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 14:29:01,2019-01-24 14:29:05,4.098s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 14:29:05,2019-01-24 14:29:05,0.003s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 14:29:05,2019-01-24 14:29:05,0.003s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 14:29:05,2019-01-24 14:29:05,0.003s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 14:29:05,2019-01-24 14:29:14,8.460s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-24 14:29:14,2019-01-24 14:29:14,0.002s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:14,2019-01-24 14:29:14,0.249s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-24 14:29:14,2019-01-24 14:29:16,2.033s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:16,2019-01-24 14:29:17,0.889s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:29:17,2019-01-24 14:29:18,0.473s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:29:18,2019-01-24 14:29:18,0.235s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:18,2019-01-24 14:29:20,1.834s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 14:29:20,2019-01-24 14:29:34,13.924s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 14:29:20,2019-01-24 14:29:22,2.797s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 14:29:22,2019-01-24 14:29:22,0.001s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 14:29:22,2019-01-24 14:29:22,0.002s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 14:29:22,2019-01-24 14:29:22,0.001s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 14:29:22,2019-01-24 14:29:28,5.983s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-24 14:29:28,2019-01-24 14:29:28,0.002s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:28,2019-01-24 14:29:29,0.243s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-24 14:29:29,2019-01-24 14:29:31,2.001s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:31,2019-01-24 14:29:31,0.840s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:29:31,2019-01-24 14:29:32,0.304s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:29:32,2019-01-24 14:29:32,0.192s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:32,2019-01-24 14:29:34,1.538s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 14:29:34,2019-01-24 14:29:46,12.681s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 14:29:34,2019-01-24 14:29:36,2.734s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 14:29:36,2019-01-24 14:29:36,0.001s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 14:29:36,2019-01-24 14:29:36,0.001s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 14:29:36,2019-01-24 14:29:36,0.001s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 14:29:36,2019-01-24 14:29:42,5.814s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-24 14:29:42,2019-01-24 14:29:42,0.002s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:42,2019-01-24 14:29:42,0.213s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-24 14:29:42,2019-01-24 14:29:44,2.005s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:44,2019-01-24 14:29:45,0.978s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:29:45,2019-01-24 14:29:46,0.370s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:29:46,2019-01-24 14:29:46,0.267s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:29:46,2019-01-24 14:29:46,0.279s,PASSED

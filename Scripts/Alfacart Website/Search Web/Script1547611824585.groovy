@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.setText(findTestObject('Object Repository/Search Web/Page_Alfacart - Belanja Online Jadi/input_Daftar Jadi Penjual_q'), 
-    'A09350001881')
+    'A13730685847')
 
 WebUI.click(findTestObject('Search Web/Page_Alfacart - Belanja Online Jadi/button_A09350001881_btn btn-de'))
 

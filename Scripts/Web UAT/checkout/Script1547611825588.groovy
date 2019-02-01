@@ -21,3 +21,9 @@ WebUI.click(findTestObject('apg web/Page_Alfacart.com - Belanja Online/button_BA
 
 WebUI.delay(5)
 
+noOrder = WebUI.getText(findTestObject('Object Repository/New Apg/TEMP_ORDER/noOrder2'))
+println (noOrder)
+
+GlobalVariable.noOrder = noOrder
+println (GlobalVariable.noOrder)
+

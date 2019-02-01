@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Login,,,2019-01-31 15:09:37,2019-01-31 15:09:39,1.825s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,,,2019-01-31 15:09:38,2019-01-31 15:09:39,1.097s,FAILED
+click,,Click Sign in Masuk/Daftar,2019-01-31 15:09:38,2019-01-31 15:09:39,0.583s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,,,2019-01-31 15:09:39,2019-01-31 15:09:39,0.072s,FAILED
+click,,Click Sign in Masuk/Daftar,2019-01-31 15:09:39,2019-01-31 15:09:39,0.018s,FAILED

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Data Driven,Chrome 71.0.3578.98,,2019-01-24 14:48:23,2019-01-24 14:50:31,2m - 7.566s,FAILED
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 14:48:23,2019-01-24 14:49:38,1m - 14.697s,FAILED
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 14:48:24,2019-01-24 14:48:28,4.310s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 14:48:28,2019-01-24 14:48:28,0.003s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 14:48:28,2019-01-24 14:48:28,0.002s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 14:48:28,2019-01-24 14:48:28,0.002s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 14:48:28,2019-01-24 14:49:38,1m - 9.815s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-24 14:49:38,2019-01-24 14:49:38,0.002s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-24 14:49:38,2019-01-24 14:49:38,0.116s,FAILED
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 14:49:38,2019-01-24 14:50:30,51.520s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 14:49:38,2019-01-24 14:49:41,2.699s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 14:49:41,2019-01-24 14:49:41,0.001s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 14:49:41,2019-01-24 14:49:41,0.001s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 14:49:41,2019-01-24 14:49:41,0.001s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 14:49:41,2019-01-24 14:49:48,7.656s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-24 14:49:48,2019-01-24 14:49:48,0.001s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-24 14:49:48,2019-01-24 14:49:49,0.202s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-24 14:49:49,2019-01-24 14:49:51,2.031s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:49:51,2019-01-24 14:49:52,0.910s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:49:52,2019-01-24 14:49:52,0.382s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 14:49:52,2019-01-24 14:49:52,0.208s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 14:49:52,2019-01-24 14:50:30,37.396s,PASSED

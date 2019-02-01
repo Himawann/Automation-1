@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New_Apg_VA" time="89" tests="6" failures="0" errors="0">
+   <testsuite name="New_Apg_VA" tests="6" failures="0" errors="0" time="89" timestamp="2019-01-30 14:42:16" hostname="Fahmi - DESKTOP-MLL93MT" id="Test Suites/New_Apg_VA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Automation\\Reports\\New_Apg_VA\\20190130_144209"/>
+         <property name="logFiles" value="D:\\Katalon\\Automation\\Reports\\New_Apg_VA\\20190130_144209\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon\\Automation\\Reports\\New_Apg_VA\\20190130_144209\\1548834224633.png"/>
+         <property name="hostName" value="Fahmi - DESKTOP-MLL93MT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.48.1"/>
+         <property name="sessionId" value="f00f25dff99acedfeaa9636bab4bc3db"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Web UAT/Login UAT" classname="Test Cases/Web UAT/Login UAT" status="PASSED">
+         <system-out><![CDATA[2019-01-30 14:42:16 - [TEST_CASE][PASSED] - Test Cases/Web UAT/Login UAT: Test Cases/Web UAT/Login UAT
+
+2019-01-30 14:42:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-01-30 14:42:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-30 14:42:22 - [TEST_STEP][PASSED] - Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe": null
+
+2019-01-30 14:42:22 - [TEST_STEP][PASSED] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): null
+
+2019-01-30 14:42:22 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(500): null
+
+2019-01-30 14:42:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stgaws.alfacart.com/' successfully
+
+2019-01-30 14:42:36 - [MESSAGE][PASSED] - Navigate to 'https://stgaws.alfacart.com/' successfully
+
+2019-01-30 14:42:36 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..0)): NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-30 14:42:36 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-30 14:42:36 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-30 14:42:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-30 14:42:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-30 14:42:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-30 14:42:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-30 14:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-30 14:42:39 - [TEST_STEP][PASSED] - setText: Text 'testingtesting061@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-30 14:42:39 - [MESSAGE][PASSED] - Text 'testingtesting061@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-30 14:42:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-30 14:42:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-30 14:42:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-30 14:42:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UAT/Search" classname="Test Cases/Web UAT/Search" status="PASSED">
+         <system-out><![CDATA[2019-01-30 14:42:45 - [TEST_CASE][PASSED] - Test Cases/Web UAT/Search: Test Cases/Web UAT/Search
+
+2019-01-30 14:42:45 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2019-01-30 14:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2019-01-30 14:42:45 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2019-01-30 14:42:45 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2019-01-30 14:42:45 - [TEST_STEP][PASSED] - setText: Text 'A09270039118' is set on object 'Object Repository/Search Web/Page_Alfacart - Belanja Online Jadi/input_Daftar Jadi Penjual_q'
+
+2019-01-30 14:42:46 - [MESSAGE][PASSED] - Text 'A09270039118' is set on object 'Object Repository/Search Web/Page_Alfacart - Belanja Online Jadi/input_Daftar Jadi Penjual_q'
+
+2019-01-30 14:42:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search Web/Page_Alfacart - Belanja Online Jadi/button_A09350001881_btn btn-de' is clicked on
+
+2019-01-30 14:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Web/Page_Alfacart - Belanja Online Jadi/button_A09350001881_btn btn-de' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UAT/add_to_cart" classname="Test Cases/Web UAT/add_to_cart" status="PASSED">
+         <system-out><![CDATA[2019-01-30 14:42:56 - [TEST_CASE][PASSED] - Test Cases/Web UAT/add_to_cart: Test Cases/Web UAT/add_to_cart
+
+2019-01-30 14:42:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/checkout Web/Page_Harga Susu Bendera Frisian Fla/a_Add to cart' is clicked on
+
+2019-01-30 14:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout Web/Page_Harga Susu Bendera Frisian Fla/a_Add to cart' is clicked on
+
+2019-01-30 14:42:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-30 14:42:58 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UAT/cart" classname="Test Cases/Web UAT/cart" status="PASSED">
+         <system-out><![CDATA[2019-01-30 14:42:58 - [TEST_CASE][PASSED] - Test Cases/Web UAT/cart: Test Cases/Web UAT/cart
+
+2019-01-30 14:42:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/checkout Web/Page_Harga Susu Bendera Frisian Fla/a_1' is clicked on
+
+2019-01-30 14:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout Web/Page_Harga Susu Bendera Frisian Fla/a_1' is clicked on
+
+2019-01-30 14:43:04 - [TEST_STEP][PASSED] - Statement - println(noOrder): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UAT/checkout" classname="Test Cases/Web UAT/checkout" status="PASSED">
+         <system-out><![CDATA[2019-01-30 14:43:04 - [TEST_CASE][PASSED] - Test Cases/Web UAT/checkout: Test Cases/Web UAT/checkout
+
+2019-01-30 14:43:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/checkout Web/Page_Alfacart - Belanja Online Jadi/button_lanjut ke check out' is clicked on
+
+2019-01-30 14:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout Web/Page_Alfacart - Belanja Online Jadi/button_lanjut ke check out' is clicked on
+
+2019-01-30 14:43:08 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-01-30 14:43:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-30 14:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/apg web/Page_Alfacart.com - Belanja Online/button_BAYAR' is clicked on
+
+2019-01-30 14:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/apg web/Page_Alfacart.com - Belanja Online/button_BAYAR' is clicked on
+
+2019-01-30 14:43:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-01-30 14:43:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-30 14:43:24 - [TEST_STEP][PASSED] - Statement - noOrder = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/New Apg/TEMP_ORDER/noOrder2)): Text of object 'Object Repository/New Apg/TEMP_ORDER/noOrder2' is: 'No. Pesanan: O-190130-CFVWG'
+
+2019-01-30 14:43:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/New Apg/TEMP_ORDER/noOrder2' is: 'No. Pesanan: O-190130-CFVWG'
+
+2019-01-30 14:43:29 - [TEST_STEP][PASSED] - Statement - println(noOrder): null
+
+2019-01-30 14:43:29 - [TEST_STEP][PASSED] - Statement - noOrder = noOrder: null
+
+2019-01-30 14:43:29 - [TEST_STEP][PASSED] - Statement - println(noOrder): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web UAT/virtual_account" classname="Test Cases/Web UAT/virtual_account" status="PASSED">
+         <system-out><![CDATA[2019-01-30 14:43:29 - [TEST_CASE][PASSED] - Test Cases/Web UAT/virtual_account: Test Cases/Web UAT/virtual_account
+
+2019-01-30 14:43:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/New Apg/Page_Alfacart.com - Belanja Online/label_BANK TRANSFER' is clicked on
+
+2019-01-30 14:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/New Apg/Page_Alfacart.com - Belanja Online/label_BANK TRANSFER' is clicked on
+
+2019-01-30 14:43:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-01-30 14:43:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-30 14:43:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/checkout Web/Page_Alfacart.com - Belanja Online/button_BAYAR_1' is clicked on
+
+2019-01-30 14:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout Web/Page_Alfacart.com - Belanja Online/button_BAYAR_1' is clicked on
+
+2019-01-30 14:43:44 - [TEST_STEP][PASSED] - verifyElementVisible: Unable to verify object 'Object Repository/New Apg/TEMP_ORDER/Page_Alfacart.com - Belanja Online/a_LANJUT BELANJA' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+
+2019-01-30 14:43:45 - [MESSAGE][WARNING] - Unable to verify object 'Object Repository/New Apg/TEMP_ORDER/Page_Alfacart.com - Belanja Online/a_LANJUT BELANJA' is visible (Root cause: java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.)
+[[ATTACHMENT|D:\\Katalon\\Automation\\Reports\\New_Apg_VA\\20190130_144209\\1548834224633.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-30 14:42:16 - [TEST_SUITE][PASSED] - New_Apg_VA: Test Cases/Web UAT/virtual_account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

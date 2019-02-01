@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New_Apg_VA,Chrome 71.0.3578.98,,2019-01-29 17:54:54,2019-01-29 17:57:15,2m - 20.670s,FAILED
+,,,,,,
+Test Cases/Web UAT/Login UAT,Chrome 71.0.3578.98,,2019-01-29 17:54:55,2019-01-29 17:56:25,1m - 30.646s,FAILED
+openBrowser,Chrome 71.0.3578.98,,2019-01-29 17:54:55,2019-01-29 17:55:03,8.008s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-29 17:55:03,2019-01-29 17:55:03,0.006s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-29 17:55:03,2019-01-29 17:55:03,0.002s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-29 17:55:03,2019-01-29 17:55:03,0.002s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-29 17:55:03,2019-01-29 17:55:51,47.675s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-29 17:55:51,2019-01-29 17:55:51,0.003s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-29 17:55:51,2019-01-29 17:55:51,0.002s,NOT_RUN
+delay,Chrome 71.0.3578.98,,2019-01-29 17:55:51,2019-01-29 17:55:53,2.057s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 17:55:53,2019-01-29 17:56:25,32.305s,FAILED
+,,,,,,
+Test Cases/Web UAT/Search,Chrome 71.0.3578.98,,2019-01-29 17:56:25,2019-01-29 17:56:41,15.334s,FAILED
+openBrowser,Chrome 71.0.3578.98,,2019-01-29 17:56:26,2019-01-29 17:56:26,0.002s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-29 17:56:26,2019-01-29 17:56:26,0.002s,NOT_RUN
+setText,Chrome 71.0.3578.98,,2019-01-29 17:56:26,2019-01-29 17:56:41,14.930s,FAILED
+,,,,,,
+Test Cases/Web UAT/add_to_cart,Chrome 71.0.3578.98,,2019-01-29 17:56:41,2019-01-29 17:56:49,8.274s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-29 17:56:41,2019-01-29 17:56:49,8.070s,FAILED
+,,,,,,
+Test Cases/Web UAT/cart,Chrome 71.0.3578.98,,2019-01-29 17:56:49,2019-01-29 17:56:57,8.322s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-29 17:56:49,2019-01-29 17:56:57,8.049s,FAILED
+,,,,,,
+Test Cases/Web UAT/checkout,Chrome 71.0.3578.98,,2019-01-29 17:56:57,2019-01-29 17:57:05,8.255s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-29 17:56:57,2019-01-29 17:57:05,8.045s,FAILED
+,,,,,,
+Test Cases/Web UAT/virtual_account,Chrome 71.0.3578.98,,2019-01-29 17:57:05,2019-01-29 17:57:14,8.279s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-29 17:57:06,2019-01-29 17:57:14,8.056s,FAILED

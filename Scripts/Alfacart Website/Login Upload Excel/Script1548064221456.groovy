@@ -14,29 +14,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-
-autoit_prj = 'D:\\Katalon\\Authentication_Custom.exe'
-
-Runtime.getRuntime().exec(autoit_prj)
-
-Thread.sleep(500)
-
 WebUI.navigateToUrl('https://www.alfacart.com/')
 
-not_run: for (def index : (0..0)) {
-}
-
-not_run: WebUI.click(findTestObject('Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x'))
+WebUI.click(findTestObject('Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x'))
+String result = WebUI.getText(findTestObject('Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x'))
+String result2 = WebUI.getText(findTestObject('Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar'))
 
 WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar'))
 
-WebUI.setText(findTestObject('Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'), 
-    'freak.fahmi@gmail.com')
+String[] data0 = new String[2];
+data0[0] = result;
+data0[1] = "test";
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'), 
-    'aNLBA2isM/JCWzdBOvM1fg==')
+String[] data1 = new String[2];
+data1[0] = result2;
+data1[1] = "test";
 
-WebUI.click(findTestObject('Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m'))
+CustomKeywords.'excel.writeExcel.demoKey'(0, data0)
+CustomKeywords.'excel.writeExcel.demoKey'(1, data1)
 

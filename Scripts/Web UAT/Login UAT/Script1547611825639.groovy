@@ -15,13 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-not_run: autoit_prj = 'D:\\Katalon\\Authentication_Custom.exe'
+autoit_prj = 'D:\\Katalon\\Authentication_Custom.exe'
 
-not_run: Runtime.getRuntime().exec(autoit_prj)
+Runtime.getRuntime().exec(autoit_prj)
 
-not_run: Thread.sleep(500)
+Thread.sleep(500)
 
-WebUI.navigateToUrl('https://uat.alfacart.com/')
+WebUI.navigateToUrl('https://stgaws.alfacart.com/')
 
 not_run: for (def index : (0..0)) {
 }
@@ -33,10 +33,10 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar'))
 
 WebUI.setText(findTestObject('Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'), 
-    'automation@yopmail.com')
+    'testingtesting061@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'), 
-    'aNLBA2isM/JCWzdBOvM1fg==')
+    'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m'))
 

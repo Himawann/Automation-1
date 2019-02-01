@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-02-01T17:23:35</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>1d47156c-093c-4cc7-ae07-63871f89846a</testSuiteGuid>
+   <testCaseLink>
+      <guid>b2c9be90-e7b8-489c-8703-04512e7a8632</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Main Test Cases/TC001_Verify Login For All Cases</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>b8fee54a-29ae-49b8-ba25-0d7d1e9e0152</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataLoginExcelFile</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b8fee54a-29ae-49b8-ba25-0d7d1e9e0152</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>121c13df-9d67-4339-bd9c-6714b80dbcaa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8fee54a-29ae-49b8-ba25-0d7d1e9e0152</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>fbf016dd-b572-4a0e-814c-2796d50b82fd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8fee54a-29ae-49b8-ba25-0d7d1e9e0152</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>0d46301c-3305-4525-a41a-0848a52d8b7d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b8fee54a-29ae-49b8-ba25-0d7d1e9e0152</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected result TestCase</value>
+         <variableId>03865599-488e-4e9e-ae07-29fb392c7d78</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -18,7 +18,7 @@ not_run: WebUI.openBrowser('')
 not_run: WebUI.navigateToUrl('https://uat.alfacart.com/')
 
 WebUI.setText(findTestObject('Object Repository/Search Web/Page_Alfacart - Belanja Online Jadi/input_Daftar Jadi Penjual_q'), 
-    'A09350001881')
+    'A09270039118')
 
 WebUI.click(findTestObject('Search Web/Page_Alfacart - Belanja Online Jadi/button_A09350001881_btn btn-de'))
 

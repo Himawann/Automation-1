@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Login,Chrome 72.0.3626.81,,2019-01-31 15:28:06,2019-01-31 15:29:31,1m - 24.938s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,Chrome 72.0.3626.81,,2019-01-31 15:28:07,2019-01-31 15:29:11,1m - 4.925s,FAILED
+Start setup action : Setup,Chrome 72.0.3626.81,,2019-01-31 15:28:07,2019-01-31 15:28:28,21.192s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 72.0.3626.81,,2019-01-31 15:28:28,2019-01-31 15:28:28,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 72.0.3626.81,,2019-01-31 15:28:28,2019-01-31 15:28:28,0.015s,PASSED
+Statement - java.lang.Thread.sleep(500),Chrome 72.0.3626.81,,2019-01-31 15:28:28,2019-01-31 15:28:28,0.516s,PASSED
+click,Chrome 72.0.3626.81,Click Sign in Masuk/Daftar,2019-01-31 15:28:28,2019-01-31 15:28:38,9.558s,PASSED
+callTestCase,Chrome 72.0.3626.81,Call Login function,2019-01-31 15:28:38,2019-01-31 15:29:11,32.678s,FAILED
+Start tear down : Teardown,Chrome 72.0.3626.81,,2019-01-31 15:29:11,2019-01-31 15:29:11,0.858s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,Chrome 72.0.3626.81,,2019-01-31 15:29:11,2019-01-31 15:29:31,19.381s,FAILED
+Start setup action : Setup,Chrome 72.0.3626.81,,2019-01-31 15:29:12,2019-01-31 15:29:25,13.485s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 72.0.3626.81,,2019-01-31 15:29:25,2019-01-31 15:29:25,0.001s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 72.0.3626.81,,2019-01-31 15:29:25,2019-01-31 15:29:25,0.005s,PASSED
+Statement - java.lang.Thread.sleep(500),Chrome 72.0.3626.81,,2019-01-31 15:29:25,2019-01-31 15:29:26,0.502s,PASSED
+click,Chrome 72.0.3626.81,Click Sign in Masuk/Daftar,2019-01-31 15:29:26,2019-01-31 15:29:29,3.770s,PASSED
+callTestCase,Chrome 72.0.3626.81,Call Login function,2019-01-31 15:29:29,2019-01-31 15:29:30,0.785s,FAILED
+Start tear down : Teardown,Chrome 72.0.3626.81,,2019-01-31 15:29:30,2019-01-31 15:29:31,0.770s,PASSED

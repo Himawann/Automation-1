@@ -4,6 +4,7 @@
    <name>Web Virtual Account Prod</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-01-31T10:06:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

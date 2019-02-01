@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 71.0.3578.98,,2019-01-29 17:32:50,2019-01-29 17:33:58,1m - 7.719s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Login PROD,Chrome 71.0.3578.98,,2019-01-29 17:32:51,2019-01-29 17:33:57,1m - 5.210s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-29 17:32:52,2019-01-29 17:33:10,18.469s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-29 17:33:10,2019-01-29 17:33:10,0.006s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-29 17:33:10,2019-01-29 17:33:10,0.002s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-29 17:33:10,2019-01-29 17:33:11,0.520s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-29 17:33:11,2019-01-29 17:33:34,23.152s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 17:33:34,2019-01-29 17:33:34,0.002s,NOT_RUN
+"Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login Web/Page_Alfacart - Belanja Online Jadi/span_x), 0)",Chrome 71.0.3578.98,,2019-01-29 17:33:34,2019-01-29 17:33:35,0.501s,PASSED
+Statement - If (result),Chrome 71.0.3578.98,,2019-01-29 17:33:35,2019-01-29 17:33:43,8.930s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-29 17:33:43,2019-01-29 17:33:45,2.003s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-29 17:33:45,2019-01-29 17:33:47,1.119s,PASSED
+setEncryptedText,Chrome 71.0.3578.98,,2019-01-29 17:33:47,2019-01-29 17:33:48,1.208s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-29 17:33:48,2019-01-29 17:33:57,8.784s,PASSED

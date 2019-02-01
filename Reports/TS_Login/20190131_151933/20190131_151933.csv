@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_Login,Chrome 72.0.3626.81,,2019-01-31 15:19:40,2019-01-31 15:21:28,1m - 47.565s,ERROR
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,Chrome 72.0.3626.81,,2019-01-31 15:19:41,2019-01-31 15:21:19,1m - 37.873s,ERROR
+Start setup action : Setup,Chrome 72.0.3626.81,,2019-01-31 15:19:41,2019-01-31 15:21:18,1m - 37.003s,ERROR
+Start tear down : Teardown,Chrome 72.0.3626.81,,2019-01-31 15:21:18,2019-01-31 15:21:19,0.777s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC001_Verify Login For All Cases,Chrome 72.0.3626.81,,2019-01-31 15:21:19,2019-01-31 15:21:28,9.176s,ERROR
+Start setup action : Setup,Chrome 72.0.3626.81,,2019-01-31 15:21:19,2019-01-31 15:21:27,8.472s,ERROR
+Start tear down : Teardown,Chrome 72.0.3626.81,,2019-01-31 15:21:27,2019-01-31 15:21:28,0.664s,PASSED

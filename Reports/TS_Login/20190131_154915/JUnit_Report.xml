@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login" time="26" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Login" tests="2" failures="0" errors="0" time="26" timestamp="2019-01-31 15:49:22" hostname="Fahmi - DESKTOP-MLL93MT" id="Test Suites/TS_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Automation\\Reports\\TS_Login\\20190131_154915"/>
+         <property name="logFiles" value="D:\\Katalon\\Automation\\Reports\\TS_Login\\20190131_154915\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fahmi - DESKTOP-MLL93MT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 72.0.3626.81"/>
+         <property name="hostAddress" value="192.168.48.1"/>
+         <property name="sessionId" value="ea9be866bc64b98c586a83394c914451"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC001_Verify Login For All Cases" classname="Test Cases/Main Test Cases/TC001_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2019-01-31 15:49:22 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC001_Verify Login For All Cases: Test Cases/Main Test Cases/TC001_Verify Login For All Cases
+
+2019-01-31 15:49:22 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2019-01-31 15:49:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stluser:Alfac@rt2018Baru@stgaws.alfacart.com/'
+
+2019-01-31 15:49:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stluser:Alfac@rt2018Baru@stgaws.alfacart.com/'
+
+2019-01-31 15:49:33 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2019-01-31 15:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-31 15:49:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-31 15:49:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test Case/Login' successfully
+
+2019-01-31 15:49:34 - [TEST_CASE][PASSED] - Test Cases/Common Test Case/Login: Test Cases/Common Test Case/Login
+
+2019-01-31 15:49:34 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-31 15:49:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-31 15:49:35 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-31 15:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-31 15:49:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Case/Login' successfully
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - Statement - switch (var_statusExpectedResult.toString()): null
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - Statement - case "email_is_empty":: null
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - Statement - errorMess = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/ErorMessLogin/ErorMessage/emailKosong)): Text of object 'Object Repository/ErorMessLogin/ErorMessage/emailKosong' is: 'This field is required.'
+
+2019-01-31 15:49:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/ErorMessLogin/ErorMessage/emailKosong' is: 'This field is required.'
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2019-01-31 15:49:35 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2019-01-31 15:49:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-01-31 15:49:36 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-31 15:49:36 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC001_Verify Login For All Cases" classname="Test Cases/Main Test Cases/TC001_Verify Login For All Cases" status="PASSED">
+         <system-out><![CDATA[2019-01-31 15:49:36 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC001_Verify Login For All Cases: Test Cases/Main Test Cases/TC001_Verify Login For All Cases
+
+2019-01-31 15:49:36 - [TEST_STEP][PASSED] - Start setup action : Setup: Method 'Setup' complete successfully
+
+2019-01-31 15:49:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stluser:Alfac@rt2018Baru@stgaws.alfacart.com/'
+
+2019-01-31 15:49:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stluser:Alfac@rt2018Baru@stgaws.alfacart.com/'
+
+2019-01-31 15:49:43 - [MESSAGE][PASSED] - Method 'Setup' complete successfully
+
+2019-01-31 15:49:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-31 15:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-31 15:49:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test Case/Login' successfully
+
+2019-01-31 15:49:44 - [TEST_CASE][PASSED] - Test Cases/Common Test Case/Login: Test Cases/Common Test Case/Login
+
+2019-01-31 15:49:44 - [TEST_STEP][PASSED] - setText: Text 'fahmi1234@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-31 15:49:44 - [MESSAGE][PASSED] - Text 'fahmi1234@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-31 15:49:44 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-31 15:49:44 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-31 15:49:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-31 15:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-31 15:49:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Case/Login' successfully
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - Statement - switch (var_statusExpectedResult.toString()): null
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - Statement - case "email_isnot_correct":: null
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - Statement - errorMess = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/ErorMessLogin/ErorMessage/akunInvalid)): Text of object 'Object Repository/ErorMessLogin/ErorMessage/akunInvalid' is: 'Invalid email/phone number or password'
+
+2019-01-31 15:49:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/ErorMessLogin/ErorMessage/akunInvalid' is: 'Invalid email/phone number or password'
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2019-01-31 15:49:48 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - Start tear down : Teardown: Method 'Teardown' complete successfully
+
+2019-01-31 15:49:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-01-31 15:49:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-31 15:49:48 - [MESSAGE][PASSED] - Method 'Teardown' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-31 15:49:22 - [TEST_SUITE][PASSED] - TS_Login: Test Cases/Main Test Cases/TC001_Verify Login For All Cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

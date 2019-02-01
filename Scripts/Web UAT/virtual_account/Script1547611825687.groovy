@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('New Apg/Page_Alfacart.com - Belanja Online/label_BANK TRANSFER'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/checkout Web/Page_Alfacart.com - Belanja Online/button_BAYAR_1'))
+
+WebUI.verifyElementVisible(findTestObject('New Apg/TEMP_ORDER/Page_Alfacart.com - Belanja Online/a_LANJUT BELANJA'), FailureHandling.STOP_ON_FAILURE)
 

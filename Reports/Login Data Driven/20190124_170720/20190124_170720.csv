@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Data Driven,Chrome 71.0.3578.98,,2019-01-24 17:07:27,2019-01-24 17:08:20,53.522s,ERROR
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 17:07:27,2019-01-24 17:07:49,21.852s,ERROR
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 17:07:28,2019-01-24 17:07:32,4.544s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 17:07:32,2019-01-24 17:07:32,0.004s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 17:07:32,2019-01-24 17:07:32,0.002s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 17:07:32,2019-01-24 17:07:32,0.002s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 17:07:32,2019-01-24 17:07:44,11.984s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 17:07:44,2019-01-24 17:07:45,0.306s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-24 17:07:45,2019-01-24 17:07:47,2.033s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 17:07:47,2019-01-24 17:07:49,1.937s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 17:07:49,2019-01-24 17:07:49,0.402s,PASSED
+"Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email), username)",Chrome 71.0.3578.98,,2019-01-24 17:07:49,2019-01-24 17:07:49,0.008s,PASSED
+,,,,,,
+Test Cases/Alfacart Website/Login Upload Excel,Chrome 71.0.3578.98,,2019-01-24 17:07:49,2019-01-24 17:08:19,30.355s,ERROR
+openBrowser,Chrome 71.0.3578.98,,2019-01-24 17:07:49,2019-01-24 17:07:52,2.794s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-24 17:07:52,2019-01-24 17:07:52,0.001s,NOT_RUN
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-24 17:07:52,2019-01-24 17:07:52,0.001s,NOT_RUN
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-24 17:07:52,2019-01-24 17:07:52,0.002s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-24 17:07:52,2019-01-24 17:08:15,23.019s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 17:08:15,2019-01-24 17:08:15,0.144s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-24 17:08:15,2019-01-24 17:08:17,2.002s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-24 17:08:17,2019-01-24 17:08:19,1.864s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-24 17:08:19,2019-01-24 17:08:19,0.459s,PASSED
+"Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email), username)",Chrome 71.0.3578.98,,2019-01-24 17:08:19,2019-01-24 17:08:19,0.004s,PASSED

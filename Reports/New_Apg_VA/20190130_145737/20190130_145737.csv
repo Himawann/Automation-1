@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New_Apg_VA,Chrome 71.0.3578.98,,2019-01-30 14:57:44,2019-01-30 15:00:30,2m - 45.544s,FAILED
+,,,,,,
+Test Cases/Web UAT/Login UAT,Chrome 71.0.3578.98,,2019-01-30 14:57:45,2019-01-30 14:58:16,31.753s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-30 14:57:45,2019-01-30 14:57:52,7.333s,PASSED
+"Statement - autoit_prj = ""D:\Katalon\Authentication_Custom.exe""",Chrome 71.0.3578.98,,2019-01-30 14:57:52,2019-01-30 14:57:52,0.004s,PASSED
+Statement - java.lang.Runtime.getRuntime().exec(autoit_prj),Chrome 71.0.3578.98,,2019-01-30 14:57:52,2019-01-30 14:57:52,0.018s,PASSED
+Statement - java.lang.Thread.sleep(500),Chrome 71.0.3578.98,,2019-01-30 14:57:52,2019-01-30 14:57:53,0.512s,PASSED
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-30 14:57:53,2019-01-30 14:58:07,14.264s,PASSED
+Statement - For (def index : (0..0)),Chrome 71.0.3578.98,,2019-01-30 14:58:07,2019-01-30 14:58:07,0.003s,NOT_RUN
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:07,2019-01-30 14:58:07,0.001s,NOT_RUN
+delay,Chrome 71.0.3578.98,,2019-01-30 14:58:07,2019-01-30 14:58:09,2.106s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:09,2019-01-30 14:58:10,0.893s,PASSED
+setText,Chrome 71.0.3578.98,,2019-01-30 14:58:10,2019-01-30 14:58:11,0.365s,PASSED
+setEncryptedText,Chrome 71.0.3578.98,,2019-01-30 14:58:11,2019-01-30 14:58:11,0.282s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:11,2019-01-30 14:58:16,5.502s,PASSED
+,,,,,,
+Test Cases/Web UAT/Search,Chrome 71.0.3578.98,,2019-01-30 14:58:16,2019-01-30 14:58:27,11.089s,PASSED
+openBrowser,Chrome 71.0.3578.98,,2019-01-30 14:58:17,2019-01-30 14:58:17,0.002s,NOT_RUN
+navigateToUrl,Chrome 71.0.3578.98,,2019-01-30 14:58:17,2019-01-30 14:58:17,0.002s,NOT_RUN
+setText,Chrome 71.0.3578.98,,2019-01-30 14:58:17,2019-01-30 14:58:17,0.395s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:17,2019-01-30 14:58:27,10.428s,PASSED
+,,,,,,
+Test Cases/Web UAT/add_to_cart,Chrome 71.0.3578.98,,2019-01-30 14:58:27,2019-01-30 14:58:30,2.491s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:28,2019-01-30 14:58:28,0.280s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-30 14:58:28,2019-01-30 14:58:30,2.005s,PASSED
+,,,,,,
+Test Cases/Web UAT/cart,Chrome 71.0.3578.98,,2019-01-30 14:58:30,2019-01-30 14:58:38,7.918s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:30,2019-01-30 14:58:38,7.712s,PASSED
+Statement - println(noOrder),Chrome 71.0.3578.98,,2019-01-30 14:58:38,2019-01-30 14:58:38,0.021s,PASSED
+,,,,,,
+Test Cases/Web UAT/checkout,Chrome 71.0.3578.98,,2019-01-30 14:58:38,2019-01-30 14:59:04,25.979s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:38,2019-01-30 14:58:44,5.595s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-30 14:58:44,2019-01-30 14:58:54,10.003s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:58:54,2019-01-30 14:58:54,0.162s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-30 14:58:54,2019-01-30 14:58:59,5.001s,PASSED
+Statement - noOrder = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/New Apg/TEMP_ORDER/noOrder2)),Chrome 71.0.3578.98,,2019-01-30 14:58:59,2019-01-30 14:59:04,4.927s,PASSED
+Statement - println(noOrder),Chrome 71.0.3578.98,,2019-01-30 14:59:04,2019-01-30 14:59:04,0.001s,PASSED
+Statement - noOrder = noOrder,Chrome 71.0.3578.98,,2019-01-30 14:59:04,2019-01-30 14:59:04,0.001s,PASSED
+Statement - println(noOrder),Chrome 71.0.3578.98,,2019-01-30 14:59:04,2019-01-30 14:59:04,0.000s,PASSED
+,,,,,,
+Test Cases/Web UAT/virtual_account,Chrome 71.0.3578.98,,2019-01-30 14:59:04,2019-01-30 15:00:29,1m - 25.080s,FAILED
+click,Chrome 71.0.3578.98,,2019-01-30 14:59:04,2019-01-30 14:59:04,0.154s,PASSED
+delay,Chrome 71.0.3578.98,,2019-01-30 14:59:04,2019-01-30 14:59:07,3.002s,PASSED
+click,Chrome 71.0.3578.98,,2019-01-30 14:59:07,2019-01-30 14:59:19,11.915s,PASSED
+verifyElementVisible,Chrome 71.0.3578.98,,2019-01-30 14:59:19,2019-01-30 15:00:29,1m - 9.663s,FAILED

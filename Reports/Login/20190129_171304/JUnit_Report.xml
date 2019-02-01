@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="44" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="44" timestamp="2019-01-29 17:13:12" hostname="Fahmi - DESKTOP-MLL93MT" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Automation\\Reports\\Login\\20190129_171304"/>
+         <property name="logFiles" value="D:\\Katalon\\Automation\\Reports\\Login\\20190129_171304\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fahmi - DESKTOP-MLL93MT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.48.1"/>
+         <property name="sessionId" value="4b7eff34129d3885d675d86cdf192849"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alfacart Website/Login PROD" classname="Test Cases/Alfacart Website/Login PROD" status="PASSED">
+         <system-out><![CDATA[2019-01-29 17:13:12 - [TEST_CASE][PASSED] - Test Cases/Alfacart Website/Login PROD: Test Cases/Alfacart Website/Login PROD
+
+2019-01-29 17:13:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-01-29 17:13:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-29 17:13:20 - [TEST_STEP][NOT_RUN] - Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe": NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-29 17:13:20 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-29 17:13:20 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-29 17:13:20 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-29 17:13:20 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(500): null
+
+2019-01-29 17:13:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-29 17:13:37 - [MESSAGE][PASSED] - Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-29 17:13:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2019-01-29 17:13:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2019-01-29 17:13:37 - [TEST_STEP][PASSED] - Statement - result = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login Web/Page_Alfacart - Belanja Online Jadi/span_x), 0): Object 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is present
+
+2019-01-29 17:13:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-29 17:13:37 - [MESSAGE][PASSED] - Object 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is present
+
+2019-01-29 17:13:37 - [TEST_STEP][PASSED] - Statement - If (result): Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-29 17:13:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-29 17:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-29 17:13:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-29 17:13:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-29 17:13:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-29 17:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-29 17:13:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-29 17:13:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-29 17:13:49 - [TEST_STEP][PASSED] - setText: Text 'freak.fahmi@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-29 17:13:49 - [MESSAGE][PASSED] - Text 'freak.fahmi@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-29 17:13:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-29 17:13:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-29 17:13:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-29 17:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-29 17:13:12 - [TEST_SUITE][PASSED] - Login: Test Cases/Alfacart Website/Login PROD]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

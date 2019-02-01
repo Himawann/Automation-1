@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Data Driven" time="58" tests="3" failures="0" errors="0">
+   <testsuite name="Login Data Driven" tests="3" failures="0" errors="0" time="58" timestamp="2019-01-24 14:46:29" hostname="Fahmi - DESKTOP-MLL93MT" id="Test Suites/Login Data Driven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon\\Automation\\Reports\\Login Data Driven\\20190124_144623"/>
+         <property name="logFiles" value="D:\\Katalon\\Automation\\Reports\\Login Data Driven\\20190124_144623\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fahmi - DESKTOP-MLL93MT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.130.2"/>
+         <property name="sessionId" value="2d7346d583436bb867c031f0f44db165"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Alfacart Website/Login Upload Excel" classname="Test Cases/Alfacart Website/Login Upload Excel" status="PASSED">
+         <system-out><![CDATA[2019-01-24 14:46:30 - [TEST_CASE][PASSED] - Test Cases/Alfacart Website/Login Upload Excel: Test Cases/Alfacart Website/Login Upload Excel
+
+2019-01-24 14:46:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-01-24 14:46:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 14:46:34 - [TEST_STEP][NOT_RUN] - Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe": NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-24 14:46:34 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-24 14:46:34 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-24 14:46:34 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-24 14:46:34 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Thread.sleep(500): NOT_RUN: Statement - java.lang.Thread.sleep(500)
+
+2019-01-24 14:46:34 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Thread.sleep(500)
+
+2019-01-24 14:46:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-24 14:46:42 - [MESSAGE][PASSED] - Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-24 14:46:42 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..0)): NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-24 14:46:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-24 14:46:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-24 14:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-24 14:46:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-24 14:46:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 14:46:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-24 14:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-24 14:46:46 - [TEST_STEP][PASSED] - setText: Text 'freak.fahmi@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-24 14:46:46 - [MESSAGE][PASSED] - Text 'freak.fahmi@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-24 14:46:46 - [TEST_STEP][PASSED] - setText: Text '03/10/93' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-24 14:46:47 - [MESSAGE][PASSED] - Text '03/10/93' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-24 14:46:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-24 14:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alfacart Website/Login Upload Excel" classname="Test Cases/Alfacart Website/Login Upload Excel" status="PASSED">
+         <system-out><![CDATA[2019-01-24 14:46:49 - [TEST_CASE][PASSED] - Test Cases/Alfacart Website/Login Upload Excel: Test Cases/Alfacart Website/Login Upload Excel
+
+2019-01-24 14:46:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-01-24 14:46:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 14:46:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 14:46:52 - [TEST_STEP][NOT_RUN] - Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe": NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-24 14:46:52 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-24 14:46:52 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-24 14:46:52 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-24 14:46:52 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Thread.sleep(500): NOT_RUN: Statement - java.lang.Thread.sleep(500)
+
+2019-01-24 14:46:52 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Thread.sleep(500)
+
+2019-01-24 14:46:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-24 14:47:00 - [MESSAGE][PASSED] - Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-24 14:47:00 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..0)): NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-24 14:47:00 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-24 14:47:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-24 14:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-24 14:47:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-24 14:47:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 14:47:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-24 14:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-24 14:47:03 - [TEST_STEP][PASSED] - setText: Text 'qaalfacart@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-24 14:47:03 - [MESSAGE][PASSED] - Text 'qaalfacart@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-24 14:47:03 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-24 14:47:03 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-24 14:47:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-24 14:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Alfacart Website/Login Upload Excel" classname="Test Cases/Alfacart Website/Login Upload Excel" status="PASSED">
+         <system-out><![CDATA[2019-01-24 14:47:05 - [TEST_CASE][PASSED] - Test Cases/Alfacart Website/Login Upload Excel: Test Cases/Alfacart Website/Login Upload Excel
+
+2019-01-24 14:47:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-01-24 14:47:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 14:47:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-24 14:47:08 - [TEST_STEP][NOT_RUN] - Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe": NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-24 14:47:08 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - autoit_prj = "D:\Katalon\Authentication_Custom.exe"
+
+2019-01-24 14:47:08 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Runtime.getRuntime().exec(autoit_prj): NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-24 14:47:08 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Runtime.getRuntime().exec(autoit_prj)
+
+2019-01-24 14:47:08 - [TEST_STEP][NOT_RUN] - Statement - java.lang.Thread.sleep(500): NOT_RUN: Statement - java.lang.Thread.sleep(500)
+
+2019-01-24 14:47:08 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - java.lang.Thread.sleep(500)
+
+2019-01-24 14:47:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-24 14:47:22 - [MESSAGE][PASSED] - Navigate to 'https://www.alfacart.com/' successfully
+
+2019-01-24 14:47:22 - [TEST_STEP][NOT_RUN] - Statement - For (def index : (0..0)): NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-24 14:47:22 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - For (def index : (0..0))
+
+2019-01-24 14:47:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-24 14:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/span_x' is clicked on
+
+2019-01-24 14:47:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-01-24 14:47:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-24 14:47:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-24 14:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart - Belanja Online Jadi/a_MasukDaftar' is clicked on
+
+2019-01-24 14:47:26 - [TEST_STEP][PASSED] - setText: Text 'testingtesting061@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-24 14:47:27 - [MESSAGE][PASSED] - Text 'testingtesting061@gmail.com' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Alamat Email_email'
+
+2019-01-24 14:47:27 - [TEST_STEP][PASSED] - setText: Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-24 14:47:27 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_password'
+
+2019-01-24 14:47:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on
+
+2019-01-24 14:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Web/Page_Alfacart.com - Belanja Online/input_Password_btn btn-login m' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 14:46:29 - [TEST_SUITE][PASSED] - Login Data Driven: Test Cases/Alfacart Website/Login Upload Excel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
